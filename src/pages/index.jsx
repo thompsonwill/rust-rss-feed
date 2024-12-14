@@ -42,13 +42,15 @@ function Landing() {
             </div>
           </div>
           <p>{feed?.description}</p>
-          <div>
+          <div className="feed-items">
             {feed.items.map((item) => {
               return (
                 <div>
-                  <p>{item.title}</p>
-                  <p><a href={"#"}>Link</a></p> {/* item.link*/}
-                  <p>{item.description}</p>
+                  <h3>{item.title}</h3>
+                  <div
+                    dangerouslySetInnerHTML={{ __html: item.description }}
+                  ></div>
+                  <button>read more</button>
                 </div>
               );
             })}

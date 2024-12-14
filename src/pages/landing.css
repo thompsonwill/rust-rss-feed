@@ -3,3 +3,6 @@
   flex-direction: row;
   align-items: center;
 }
+.feed-items{
+  width: 80%
+}

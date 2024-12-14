@@ -16,3 +16,12 @@
 .sidebar-item:hover {
   background-color: #3f3f3f;
 }
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 90vh;
+  overflow-y: auto;
+  width: 50px;
+
+}
