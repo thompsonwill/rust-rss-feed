@@ -1,0 +1,18 @@
+.sidebar-svg {
+  stroke: #ffffff;
+}
+.sidebar-item {
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  border-radius: 5px;
+  height: 25px;
+  width: 25px;
+
+  background-color: #333333;
+}
+.active-sidebar {
+  background-color: #424242;
+}
+.sidebar-item:hover {
+  background-color: #3f3f3f;
+}
