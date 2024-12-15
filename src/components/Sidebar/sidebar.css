@@ -23,5 +23,32 @@
   height: 90vh;
   overflow-y: auto;
   width: 50px;
+  min-width: 50px;
+}
+.feed-sidebar {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  height: 90vh;
+  width: auto;
+}
+.feed-sidebar a {
+  text-decoration: none;
+}
+.feed-sidebar-item {
+  margin: 5px 0 5px 0;
+  padding: 5px;
+min-width: 100px;
+}
+.feed-sidebar-item-img-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
+@media (prefers-color-scheme: dark) {
+  .feed-sidebar a {
+    color: #ffffff;
+  }
 }

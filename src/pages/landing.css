@@ -6,3 +6,8 @@
 .feed-items{
   width: 80%
 }
+.landing-page-container{
+  display: flex;
+  flex-direction: row;
+}
+
